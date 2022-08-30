@@ -1,15 +1,21 @@
-# Venda_Bem
+# Node.js v16.x
 
-<div>
-<img src="https://user-images.githubusercontent.com/59830792/187295094-3dd04636-fe46-43e0-94d7-3662ba08970e.png" height="50">
+<img src="https://user-images.githubusercontent.com/59830792/187295094-3dd04636-fe46-43e0-94d7-3662ba08970e.png" height="70">
 
-</div>
+<p>Node.js cria um ambiente de execução Javascript server-side, ou seja, é possível usar o JS do lado do servidor sem depender de um browser para a execução.</p>
+
+#### Install using Ubuntu
+<p>curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs</p>
 
 
 ## Frameworks
 <img src="https://user-images.githubusercontent.com/59830792/187295107-544b0e8a-0fc6-40f7-84ef-cc659528faca.png" height="50">
 
-<p>O Express é uma estrutura de aplicativo da Web Node.js mínima e flexível que fornece um conjunto robusto de recursos para aplicativos da Web e móveis.</p>
+<p>O Express é uma estrutura de aplicativo da Web Node.js mínima e flexível que fornece um conjunto robusto de recursos para aplicativos da Web e móveis. Otimiza aplicações web e APIs utilizando o Node para executar o Javascript como linguagem Back end.</p>
+
+#### Install
+<p>npm install express --save</p>
 
 
 ## Bibliotecas
