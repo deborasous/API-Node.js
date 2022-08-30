@@ -17,5 +17,14 @@
 
 <p>Nodemon monitora qualquer alteração na aplicação e reinicia o servidor Node automaticamente.</p>
 
+#### 1º install
+<p>npm install -g nodemon</p>
+
+#### 2º create a script in package.json
+<p>"dev": "nodemon app.js" (com o nome que desejar e como segundo parametro define qual o script a ser executado</p>
+
+#### 3º Run the script in terminal
+<p>npm run dev</p>
+
 
 
