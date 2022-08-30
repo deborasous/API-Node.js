@@ -1,12 +1,16 @@
-# Node.js v16.x
+# Aplicação base de Node.js
 
 <img src="https://user-images.githubusercontent.com/59830792/187295094-3dd04636-fe46-43e0-94d7-3662ba08970e.png" height="70">
 
 <p>Node.js cria um ambiente de execução Javascript server-side, ou seja, é possível usar o JS do lado do servidor sem depender de um browser para a execução.</p>
 
+#### Vesion
+<p>Node.js v16.x</p>
+
 #### Install using Ubuntu
 <p>curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs</p>
+
 
 
 ## Frameworks
@@ -16,6 +20,7 @@ sudo apt-get install -y nodejs</p>
 
 #### Install
 <p>npm install express --save</p>
+
 
 
 ## Bibliotecas
@@ -33,4 +38,11 @@ sudo apt-get install -y nodejs</p>
 <p>npm run dev</p>
 
 
+
+## Extensions
+<img src="https://user-images.githubusercontent.com/59830792/187547800-02a726e0-db5b-4309-a8c1-322d8dbae4ee.png" height="50">
+
+<p>O REST Client permite enviar solicitação HTTP e exibir a resposta diretamente no Visual Studio Code..</p>
+
+#### Install in VSCODE
 
