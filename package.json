@@ -1,0 +1,22 @@
+{
+  "name": "venda_bem",
+  "version": "1.0.0",
+  "description": "Primeira versão site Venda Bem",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deborasous/Venda_Bem.git"
+  },
+  "author": "Debora Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deborasous/API-Node.js/issues"
+  },
+  "homepage": "https://github.com/deborasous/API-Node.js#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

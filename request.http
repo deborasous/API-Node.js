@@ -1,0 +1,33 @@
+//definir o tipo de metodo que deseja acessar
+POST http://localhost:4002/products
+//passar o tipo de content type
+Content-Type: application/json 
+//estrutura do body, do que deseja enviar para a requisição (tipo JSON)/ cadastra produtos
+
+{
+    "infProduct": "File de Tilapia",
+    "knowMore": "Descrição de produto"
+}
+
+
+### //responde com o array, sempre que um produto for cadastrado no post, assim toda vez que cadastrar um produto e der um send request no GET, um novo produto será cadastrado no array
+GET http://localhost:4002/products 
+
+
+###
+GET http://localhost:4002/products/356e594f-6acc-4230-93f6-4a83a51d85b3
+//passa o id do produto produzido automaticamente pelo POST
+
+### ADD OS PRODUTOS NO POST, DÁ UM SEND REQUEST NO GET PARA MOSTRAR TODOS OS DADOS E PEGAR O NUMERO DO ID GERADO. COLOCA O ID GERADO NO PUT, DEPOIS DE PRODUCTS/, VAI NO PRODUTO E ALTERA OS PARAMETROS E DÁ UM SEND REQUEST NO PUT
+PUT http://localhost:4002/products/279cef4d-5156-4839-9376-ef4cc849dbb2
+//passar o tipo de content type
+Content-Type: application/json 
+//estrutura do body, do que deseja enviar para a requisição (tipo JSON)/ cadastra produtos
+
+{
+    "infProduct": "Coxa de Frango Pacote",
+    "knowMore": "Descrição de produto"
+}
+
+###//PEGA O ID QUE FOI GERADO AO CADASTRAR O PRODUTO E COLOCA LOGO DEPOIS DO products/ E DÁ UM NOVO SEND REQUEST NO PRIMEIRO GET
+DELETE http://localhost:4002/products/a1b39d73-d80b-4d1b-814b-d1d325cedb80
